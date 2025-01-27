@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{{-- <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
@@ -14,7 +14,7 @@
         @else
         @endif
     </head>
-    <body class="font-sans antialiased dark:bg-black dark:text-white/50">
+    <body class="font-sans antialiased">
         @session('message')
             <div class="success-message">
                 {{ session('message') }}
@@ -22,4 +22,4 @@
         @endsession
         {{ $slot }}
     </body>
-</html>
+</html> --}}
